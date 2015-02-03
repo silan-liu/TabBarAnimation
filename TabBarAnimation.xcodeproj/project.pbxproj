@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA5173A1A806EDD00B5AE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517391A806EDD00B5AE10 /* main.m */; };
+		ADA5173D1A806EDD00B5AE10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA5173C1A806EDD00B5AE10 /* AppDelegate.m */; };
+		ADA517431A806EDD00B5AE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA517411A806EDD00B5AE10 /* Main.storyboard */; };
+		ADA517451A806EDD00B5AE10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA517441A806EDD00B5AE10 /* Images.xcassets */; };
+		ADA517481A806EDD00B5AE10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA517461A806EDD00B5AE10 /* LaunchScreen.xib */; };
+		ADA517541A806EDD00B5AE10 /* TabBarAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517531A806EDD00B5AE10 /* TabBarAnimationTests.m */; };
+		ADA5175E1A80700700B5AE10 /* Images.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADA5175D1A80700700B5AE10 /* Images.plist */; };
+		ADA517681A8071C000B5AE10 /* TabBarItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517671A8071C000B5AE10 /* TabBarItemAnimation.m */; };
+		ADA5176B1A8072D900B5AE10 /* FumeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA5176A1A8072D900B5AE10 /* FumeAnimation.m */; };
+		ADA5176E1A8072E800B5AE10 /* BounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA5176D1A8072E800B5AE10 /* BounceAnimation.m */; };
+		ADA517741A80730900B5AE10 /* RotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517731A80730900B5AE10 /* RotationAnimation.m */; };
+		ADA517771A80731800B5AE10 /* FrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517761A80731800B5AE10 /* FrameAnimation.m */; };
+		ADA5177A1A80732900B5AE10 /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517791A80732900B5AE10 /* TransitionAnimation.m */; };
+		ADA5177D1A80A1D700B5AE10 /* AnimatedTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA5177C1A80A1D700B5AE10 /* AnimatedTabBarController.m */; };
+		ADA517801A80A1F300B5AE10 /* AnimatedTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA5177F1A80A1F300B5AE10 /* AnimatedTabBarItem.m */; };
+		ADA517841A80A30200B5AE10 /* AnimationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA517831A80A30200B5AE10 /* AnimationFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA5174E1A806EDD00B5AE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA5172C1A806EDD00B5AE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA517331A806EDD00B5AE10;
+			remoteInfo = TabBarAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA517341A806EDD00B5AE10 /* TabBarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA517381A806EDD00B5AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA517391A806EDD00B5AE10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA5173B1A806EDD00B5AE10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADA5173C1A806EDD00B5AE10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADA517421A806EDD00B5AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA517441A806EDD00B5AE10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADA517471A806EDD00B5AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADA5174D1A806EDD00B5AE10 /* TabBarAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA517521A806EDD00B5AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA517531A806EDD00B5AE10 /* TabBarAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarAnimationTests.m; sourceTree = "<group>"; };
+		ADA5175D1A80700700B5AE10 /* Images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Images.plist; sourceTree = "<group>"; };
+		ADA517651A8071C000B5AE10 /* TabBarAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarAnimationProtocol.h; sourceTree = "<group>"; };
+		ADA517661A8071C000B5AE10 /* TabBarItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItemAnimation.h; sourceTree = "<group>"; };
+		ADA517671A8071C000B5AE10 /* TabBarItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItemAnimation.m; sourceTree = "<group>"; };
+		ADA517691A8072D900B5AE10 /* FumeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FumeAnimation.h; sourceTree = "<group>"; };
+		ADA5176A1A8072D900B5AE10 /* FumeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FumeAnimation.m; sourceTree = "<group>"; };
+		ADA5176C1A8072E800B5AE10 /* BounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceAnimation.h; sourceTree = "<group>"; };
+		ADA5176D1A8072E800B5AE10 /* BounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceAnimation.m; sourceTree = "<group>"; };
+		ADA517721A80730900B5AE10 /* RotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationAnimation.h; sourceTree = "<group>"; };
+		ADA517731A80730900B5AE10 /* RotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationAnimation.m; sourceTree = "<group>"; };
+		ADA517751A80731800B5AE10 /* FrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAnimation.h; sourceTree = "<group>"; };
+		ADA517761A80731800B5AE10 /* FrameAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameAnimation.m; sourceTree = "<group>"; };
+		ADA517781A80732900B5AE10 /* TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
+		ADA517791A80732900B5AE10 /* TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
+		ADA5177B1A80A1D700B5AE10 /* AnimatedTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTabBarController.h; sourceTree = "<group>"; };
+		ADA5177C1A80A1D700B5AE10 /* AnimatedTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTabBarController.m; sourceTree = "<group>"; };
+		ADA5177E1A80A1F300B5AE10 /* AnimatedTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTabBarItem.h; sourceTree = "<group>"; };
+		ADA5177F1A80A1F300B5AE10 /* AnimatedTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTabBarItem.m; sourceTree = "<group>"; };
+		ADA517811A80A26F00B5AE10 /* AnimationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationType.h; sourceTree = "<group>"; };
+		ADA517821A80A30200B5AE10 /* AnimationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationFactory.h; sourceTree = "<group>"; };
+		ADA517831A80A30200B5AE10 /* AnimationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA517311A806EDD00B5AE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA5174A1A806EDD00B5AE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA5172B1A806EDD00B5AE10 = {
+			isa = PBXGroup;
+			children = (
+				ADA517361A806EDD00B5AE10 /* TabBarAnimation */,
+				ADA517501A806EDD00B5AE10 /* TabBarAnimationTests */,
+				ADA517351A806EDD00B5AE10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA517351A806EDD00B5AE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA517341A806EDD00B5AE10 /* TabBarAnimation.app */,
+				ADA5174D1A806EDD00B5AE10 /* TabBarAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA517361A806EDD00B5AE10 /* TabBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5177B1A80A1D700B5AE10 /* AnimatedTabBarController.h */,
+				ADA5177C1A80A1D700B5AE10 /* AnimatedTabBarController.m */,
+				ADA5177E1A80A1F300B5AE10 /* AnimatedTabBarItem.h */,
+				ADA5177F1A80A1F300B5AE10 /* AnimatedTabBarItem.m */,
+				ADA517641A8071C000B5AE10 /* Animation */,
+				ADA5173B1A806EDD00B5AE10 /* AppDelegate.h */,
+				ADA5173C1A806EDD00B5AE10 /* AppDelegate.m */,
+				ADA517411A806EDD00B5AE10 /* Main.storyboard */,
+				ADA517441A806EDD00B5AE10 /* Images.xcassets */,
+				ADA517461A806EDD00B5AE10 /* LaunchScreen.xib */,
+				ADA517371A806EDD00B5AE10 /* Supporting Files */,
+				ADA5175D1A80700700B5AE10 /* Images.plist */,
+			);
+			path = TabBarAnimation;
+			sourceTree = "<group>";
+		};
+		ADA517371A806EDD00B5AE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA517381A806EDD00B5AE10 /* Info.plist */,
+				ADA517391A806EDD00B5AE10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA517501A806EDD00B5AE10 /* TabBarAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA517531A806EDD00B5AE10 /* TabBarAnimationTests.m */,
+				ADA517511A806EDD00B5AE10 /* Supporting Files */,
+			);
+			path = TabBarAnimationTests;
+			sourceTree = "<group>";
+		};
+		ADA517511A806EDD00B5AE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA517521A806EDD00B5AE10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA517641A8071C000B5AE10 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				ADA517651A8071C000B5AE10 /* TabBarAnimationProtocol.h */,
+				ADA517661A8071C000B5AE10 /* TabBarItemAnimation.h */,
+				ADA517671A8071C000B5AE10 /* TabBarItemAnimation.m */,
+				ADA517691A8072D900B5AE10 /* FumeAnimation.h */,
+				ADA5176A1A8072D900B5AE10 /* FumeAnimation.m */,
+				ADA5176C1A8072E800B5AE10 /* BounceAnimation.h */,
+				ADA5176D1A8072E800B5AE10 /* BounceAnimation.m */,
+				ADA517721A80730900B5AE10 /* RotationAnimation.h */,
+				ADA517731A80730900B5AE10 /* RotationAnimation.m */,
+				ADA517751A80731800B5AE10 /* FrameAnimation.h */,
+				ADA517761A80731800B5AE10 /* FrameAnimation.m */,
+				ADA517781A80732900B5AE10 /* TransitionAnimation.h */,
+				ADA517791A80732900B5AE10 /* TransitionAnimation.m */,
+				ADA517811A80A26F00B5AE10 /* AnimationType.h */,
+				ADA517821A80A30200B5AE10 /* AnimationFactory.h */,
+				ADA517831A80A30200B5AE10 /* AnimationFactory.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA517331A806EDD00B5AE10 /* TabBarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA517571A806EDD00B5AE10 /* Build configuration list for PBXNativeTarget "TabBarAnimation" */;
+			buildPhases = (
+				ADA517301A806EDD00B5AE10 /* Sources */,
+				ADA517311A806EDD00B5AE10 /* Frameworks */,
+				ADA517321A806EDD00B5AE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarAnimation;
+			productName = TabBarAnimation;
+			productReference = ADA517341A806EDD00B5AE10 /* TabBarAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA5174C1A806EDD00B5AE10 /* TabBarAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA5175A1A806EDD00B5AE10 /* Build configuration list for PBXNativeTarget "TabBarAnimationTests" */;
+			buildPhases = (
+				ADA517491A806EDD00B5AE10 /* Sources */,
+				ADA5174A1A806EDD00B5AE10 /* Frameworks */,
+				ADA5174B1A806EDD00B5AE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA5174F1A806EDD00B5AE10 /* PBXTargetDependency */,
+			);
+			name = TabBarAnimationTests;
+			productName = TabBarAnimationTests;
+			productReference = ADA5174D1A806EDD00B5AE10 /* TabBarAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA5172C1A806EDD00B5AE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "YY, Inc";
+				TargetAttributes = {
+					ADA517331A806EDD00B5AE10 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ADA5174C1A806EDD00B5AE10 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ADA517331A806EDD00B5AE10;
+					};
+				};
+			};
+			buildConfigurationList = ADA5172F1A806EDD00B5AE10 /* Build configuration list for PBXProject "TabBarAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA5172B1A806EDD00B5AE10;
+			productRefGroup = ADA517351A806EDD00B5AE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA517331A806EDD00B5AE10 /* TabBarAnimation */,
+				ADA5174C1A806EDD00B5AE10 /* TabBarAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA517321A806EDD00B5AE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA5175E1A80700700B5AE10 /* Images.plist in Resources */,
+				ADA517431A806EDD00B5AE10 /* Main.storyboard in Resources */,
+				ADA517481A806EDD00B5AE10 /* LaunchScreen.xib in Resources */,
+				ADA517451A806EDD00B5AE10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA5174B1A806EDD00B5AE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA517301A806EDD00B5AE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA5173D1A806EDD00B5AE10 /* AppDelegate.m in Sources */,
+				ADA5177A1A80732900B5AE10 /* TransitionAnimation.m in Sources */,
+				ADA5176E1A8072E800B5AE10 /* BounceAnimation.m in Sources */,
+				ADA5173A1A806EDD00B5AE10 /* main.m in Sources */,
+				ADA517841A80A30200B5AE10 /* AnimationFactory.m in Sources */,
+				ADA5176B1A8072D900B5AE10 /* FumeAnimation.m in Sources */,
+				ADA5177D1A80A1D700B5AE10 /* AnimatedTabBarController.m in Sources */,
+				ADA517681A8071C000B5AE10 /* TabBarItemAnimation.m in Sources */,
+				ADA517801A80A1F300B5AE10 /* AnimatedTabBarItem.m in Sources */,
+				ADA517771A80731800B5AE10 /* FrameAnimation.m in Sources */,
+				ADA517741A80730900B5AE10 /* RotationAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA517491A806EDD00B5AE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA517541A806EDD00B5AE10 /* TabBarAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA5174F1A806EDD00B5AE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA517331A806EDD00B5AE10 /* TabBarAnimation */;
+			targetProxy = ADA5174E1A806EDD00B5AE10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA517411A806EDD00B5AE10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA517421A806EDD00B5AE10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA517461A806EDD00B5AE10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA517471A806EDD00B5AE10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA517551A806EDD00B5AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA517561A806EDD00B5AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA517581A806EDD00B5AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabBarAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADA517591A806EDD00B5AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabBarAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADA5175B1A806EDD00B5AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabBarAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarAnimation.app/TabBarAnimation";
+			};
+			name = Debug;
+		};
+		ADA5175C1A806EDD00B5AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabBarAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarAnimation.app/TabBarAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA5172F1A806EDD00B5AE10 /* Build configuration list for PBXProject "TabBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA517551A806EDD00B5AE10 /* Debug */,
+				ADA517561A806EDD00B5AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA517571A806EDD00B5AE10 /* Build configuration list for PBXNativeTarget "TabBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA517581A806EDD00B5AE10 /* Debug */,
+				ADA517591A806EDD00B5AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADA5175A1A806EDD00B5AE10 /* Build configuration list for PBXNativeTarget "TabBarAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA5175B1A806EDD00B5AE10 /* Debug */,
+				ADA5175C1A806EDD00B5AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA5172C1A806EDD00B5AE10 /* Project object */;
+}
